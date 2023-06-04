@@ -13,7 +13,7 @@ class Tree {
   return permutations;
   }
 
-  private:
+ private:
   struct Node {
   char symbol;
   std::vector<Node*> descen;
